@@ -27,7 +27,7 @@ variable "asg_size" {
   description = "ASG Size limits"
   type = map
   default = {
-    "min_val" = "1"
-    "max_val" = "3"
+    "min_val" = "2"
+    "max_val" = "2"
   }
 }
